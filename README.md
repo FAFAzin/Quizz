@@ -6,7 +6,7 @@ Este é um jogo de conhecimento, desenvolvido 100% em react, com a ajuda do cana
 
 #### Como baixar este repositório e usa-lo?
  git clone https://github.com/FAFAzin/Quizz.git
- OBS: com este comando você fara um clone deste repositório em sua máquina, onde todo o código será baixado, porém, ele não será o suficiente para inciar a aplicação, então, segue comigo!
+ ###### OBS: com este comando você fara um clone deste repositório em sua máquina, onde todo o código será baixado, porém, ele não será o suficiente para inciar a aplicação, então, segue comigo!
 
  #### Como rodar essa aplicação em minha máquina?
 
