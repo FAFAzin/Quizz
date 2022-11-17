@@ -8,18 +8,26 @@ const STAGES = ['Start', 'Playing', 'End'];
 //objeto de estagios
 const initialStage = {
     gameStage: STAGES[0],
-    questions
+    questions,
+    currentQuestion: 0,
 }
 
 //funcão que retorna o estágio(em breve refatorar com useState)
 const quizReducer = (state, action) => {
 
-    console.log(state, action)
     switch (action.type) {
         case 'CHANGE_STATE':
             return {
                 ...state,
                 gameStage: STAGES[1]
+            };
+        case 'REORDER_QUESTIONS':
+            const reorderQuestions = questions.sort(() => {
+                return Math.random() - 0.5;
+            })
+            return {
+                ...state,
+                questions: reorderQuestions,
             };
 
         default:
