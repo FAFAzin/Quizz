@@ -15,6 +15,6 @@ Este é um jogo quiz de conhedimento em programação, desenvolvido em react com
  2 - Baixar o <a href='https://www.npmjs.com/'>Npm</a> em sua máquina
 ###### OBS: se não sabe o que é Npm ou como baixa-lo, indico fortemente estudar um pouco sobre ele antes de tentar seguir em frente.
 3 - após essa instalações e a clonagem do repositório é preciso que dentro do Visual Estúdio Code se faça: 
-    3.1 - Abra um terminal na pasta do projeto( ou seja, a pasta onde está toda a estrutura do projeto).
-    3.2 - no terminal digite: npm i
+##### a - Abra um terminal na pasta do projeto( ou seja, a pasta onde está toda a estrutura do projeto)
+##### b - No terminal digite: npm i
 4 - para iniciar o programa digite: npm run dev
