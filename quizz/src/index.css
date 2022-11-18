@@ -9,11 +9,11 @@ body,
 html {
   min-height: 100vh;
   height: 100%;
-  background-color: #000;
+  background-color:#050505;
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 button {
@@ -21,18 +21,12 @@ button {
   font-size: 1.2rem;
   cursor: pointer;
   padding: .8rem 1.5rem;
-  background: linear-gradient(
-    90deg,
-    rgba(132, 53, 222, 1)0%,
-    rgba(184, 84, 232, 1) 100%);
-    border-radius: 3rem;
-    border: none;
+  background-color:#0da526 ;
+  border-radius: 0.5rem;
+  border: none;
 }
 
 button:hover{
-  background: linear-gradient(
-    90deg,
-    rgba(184, 84, 232, 1)0%,
-    rgba(132, 53, 222, 1)100%);
-    transition: 10s;
-}
+    transition: .8s;
+    background-color:	#00ff00;
+  }
