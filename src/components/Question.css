@@ -1,11 +1,11 @@
 #question{
     text-align: center;
-    min-width: 30rem;
+    min-width: 350px;
     max-width: 100%;
-    background-color: #171917;
+    /* background-color: #171917; */
     border-radius: 1rem;
-    padding: 2rem;
-    margin-top: 5rem;
+    padding: 1rem;
+    margin-top: 5px;
 }
  #question h2 {
     margin-bottom: 2rem;
@@ -17,5 +17,5 @@
     font-weight: 600;
 }
  button {
-    margin-top: 5rem;
+    margin-top: 4rem;
  }

@@ -1,7 +1,13 @@
 .option {
-    background-color: 	#6a6767;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6a6767;
+    min-width: 100px;
+    max-width: 80%;
     border-radius: .5rem;
     padding: 1rem;
+    margin: 1rem 25% 25%;
     margin-bottom: 1rem;
     cursor: pointer;
     opacity: 0.8;
